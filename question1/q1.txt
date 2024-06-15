@@ -1,0 +1,31 @@
+Aditya has n sets of integers S1, S2, ... ,Sn.  We can choose some (possibly, none) of the sets S1,S2,…,Sn so that S is equal to their union. Find the maximum number of elements in set S such that - S != S1 ∪ S2 ∪ S3 ∪ ... Sn
+
+S1 ∪ S2 ∪ S3 denotes union of sets which is defined as the set of elements present in at least one of these sets. For example, 
+{2, 4, 6} ∪ {2, 3} ∪ {3, 6, 7} = {2, 3, 4, 6, 7}
+
+Input
+The first line of each test case contains a single integer n (1 <= n <= 50)
+
+The following n lines describe the sets S1,S2,…,Sn. The ith of these lines contains an integer ki (1 <= ki <= 50) — the number of elements in Si , followed by ki integers — the elements of Si.
+
+Output
+Print a single integer - the maximum number of elements in set S such that S != S1 ∪ S2 ∪ S3 ∪ ... Sn
+
+Example
+Input:
+2  
+3
+3 1 2 3
+2 4 5
+2 3 4
+
+1
+2 4 28
+
+Output: 
+4
+0
+
+In first test case, S = S1 ∪ S3 = {1, 2, 3, 4} is the largest union not equal to S1 ∪ S2 ∪ S3
+In second testcase, only possible set is empty set.
+

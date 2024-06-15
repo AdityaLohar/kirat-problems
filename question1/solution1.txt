@@ -1,0 +1,3 @@
+Use a set to store all unique elements across all sets.
+Use a map where each key is the index of a set and the value is a set of elements present in the corresponding set. 
+For each element in the universal set st, create a 'temporary set' to track elements that can be part of S 𝘪𝘧 𝘸𝘦 𝘦𝘹𝘤𝘭𝘶𝘥𝘦 𝘵𝘩𝘦 𝘴𝘦𝘵𝘴 𝘤𝘰𝘯𝘵𝘢𝘪𝘯𝘪𝘯𝘨 𝘵𝘩𝘦 𝘤𝘶𝘳𝘳𝘦𝘯𝘵 𝘦𝘭𝘦𝘮𝘦𝘯𝘵. Answer is the maximum size of '𝘵𝘦𝘮𝘱𝘰𝘳𝘢𝘳𝘺 𝘴𝘦𝘵'.

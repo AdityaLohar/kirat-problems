@@ -1,0 +1,17 @@
+Create an empty hash map.
+
+Initialize the count of distinct elements as 'len' to 0.
+
+Traverse through the first window and insert elements of the first window to hashmap. The elements are used as key and their counts as the value in hashmap. Also, keep updating len
+
+Traverse through the remaining array (or other windows).
+
+Remove the first element of the previous window. 
+
+If the removed element appeared only once, remove it from hashmap and decrease the distinct count, i.e. do len–“
+else (appeared multiple times in hashmap), then decrement its count in hashmap
+
+Add the current element (last element of the new window) 
+
+If the added element is not present in hashmap, add it to hashmap and increase the distinct count, i.e. do “len++”
+else (the added element appeared multiple times), increment its count in hashmap
